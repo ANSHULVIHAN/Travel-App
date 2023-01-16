@@ -1,0 +1,155 @@
+.main{
+
+width:100%;
+
+.secTitle{
+    //align-items: center;
+    .title{
+position:sticky;
+width: max-content;
+color: whitesmoke;
+align-items: center;
+margin: 1rem 0rem ;
+margin-left: 32rem;
+z-index:1;
+
+&::after{
+    position:static;
+    content:'' ;
+    background: skyblue;
+    height: 7rem;
+    width: 7rem;
+    right: 0;
+    bottom: 5px;
+    z-index:-1;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+    }
+}
+.secContent{
+   // justify-content: center;
+    gap: 1.5rem;
+
+    .singleDestination{
+        height: 100%;
+        display: grid;
+        row-gap: 10px;
+        padding: 1rem;
+        border-radius: 10px;
+        align-items: center;
+        background: var(--carBG);
+        box-shadow: 0 2px 4px #7270d8;
+        overflow: hidden;
+
+        &:hover{
+
+            background: whitesmoke;
+            box-shadow: 1 4px 4px hsl(184, 100%, 50%);
+            transition: .3s ease;
+        }
+
+.imageDiv{
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+
+    img{
+height:auto;
+width:20rem;
+object-fit: cover;
+transition: 2s ease;
+
+
+    }
+
+    &:hover{
+        img{
+            transform: scale(1,1);
+        }
+    }
+    .cardInfo{
+        padding: 1rem;
+
+        destTitle{
+            color: hsl(135, 100%, 50%);
+            font-size: 1.25rem;
+        }
+        .continent{
+            gap: .5rem;
+
+            .icon{
+color: cadetblue;
+font-size: 1.8rem;
+
+            }
+            .name{
+                color: aqua;
+                font-weight: 400;
+                font-size: 1.4rem;
+            }
+        }
+        .fees{
+            width:100%;
+            justify-content: space-between;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-top: 1.5px solid var(--greyText);
+            border-bottom: 1.5px solid var(--greyText);
+
+            grade{
+                color: hwb(268 44% 15%);
+                max-width: 10rem;
+                line-height: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                small{
+                    text-align: center;
+                    background: hsl(0, 57%, 64%);
+                    border-radius: 1rem;
+                  color: #ffee00;
+                    padding: 1px 10px;
+                    font-size: 10px;
+
+                }
+            }
+            .price{
+                font-size: 2rem;
+                color: #a0695f;
+            }
+        }
+
+        .desc{
+            font-size: 13.5px;
+            color: #ffee00;
+            font-weight: 500;
+
+        }
+        .btn{
+
+            margin-top: 1rem;
+            color: #fff0f6;
+            font-weight: 600;
+            justify-content: space-between;
+            gap: .5rem;
+
+            .icon{
+                align-items: center;
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    
+
+
+
+}
+
+    }
+}
+
+}

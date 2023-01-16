@@ -1,0 +1,180 @@
+.home{
+width:100%;
+//position:absolute;
+display:flex;
+align-items: center;
+justify-content: center;
+margin:auto;
+
+
+}
+.overlay{
+ position:inherit;
+ height: 100%;
+ width: 100%;
+ background-color: skyblue;
+ top: 0;
+ bottom: 0;
+ z-index: 1;
+ //mix-blend-mode: hard-light;
+
+}
+.homeContent{
+width: 100%;
+
+height:max-content;
+padding: 3rem 2.5rem 1rem;
+display: flex;
+row-gap:0rem;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+margin:2rem;
+color:darkgreen;
+z-index:100;
+
+.textDiv{
+padding:1rem 0;
+font-size: 1rem;
+//font-size: 12rem;
+.smallText{
+font-size: 12rem;
+text-transform: uppercase;
+
+}
+
+.homeTitle{
+    position:relative;
+    font-size: 12.8rem;
+}
+
+}
+
+
+}
+
+.cardDiv{
+position: relative;
+padding: 3rem 1rem;
+background: 1rem;
+gap:2rem;
+
+label{
+    display:flex;
+    color: green;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content:center;
+  
+
+
+}
+.label total{
+
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .total{
+        color: darkgreen;
+        font-size: 18px;
+        padding-bottom: 1rem;
+    }
+
+
+}
+
+.input{
+
+height: 2rem;
+align-items: center;
+padding: 0 1rem;
+background-color: cadetblue;
+border-radius: 3rem;
+
+input{
+background:none;
+border: whitesmoke;
+outline: none;
+width: 100%;
+font-size: 1rem;
+font-weight: 50rem;
+&::placeholder{
+    font-size: .7rem;
+}
+
+
+}
+
+.icon{
+font-size: 1.8rem;
+color:green;
+margin-left: 1rem;
+
+//align-items: center;
+
+
+}
+
+.input[type=range]{
+    background: skyblue;
+
+
+
+
+}
+
+
+}
+
+.searchOptions{
+position: obsulate;
+background-color: rgb(234, 0, 255);
+width: max-content;
+bottom: -0.7rem;
+column-gap: .8rem;
+padding: 5px 1rem;
+border-radius:3rem;
+left: 50%;
+transform: translate(-50%);
+justify-content: center;
+cursor: pointer;
+
+
+}
+&:hover{
+
+    background: '';
+
+
+}
+.icon{
+    font-size: 1.8rem;
+}
+span{
+
+    font-size: 1.3rem;
+}
+
+.homeFooterIcons{
+
+    width:100%;
+  justify-content: space-between;
+
+    icon{
+font-size: 20px;
+margin: 0 5px;
+color:hsl(332, 57%, 70%);
+font-weight:600;
+justify-content: space-between;
+&:hover{
+
+    color: cadetblue;
+}
+    }
+
+}
+
+
+}
